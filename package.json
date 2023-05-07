@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "cdk": "bin/cdk.js"
+    "cdk": "cdk/bin/cdk.js"
   },
   "scripts": {
     "build": "tsc",
