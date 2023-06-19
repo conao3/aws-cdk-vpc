@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.78.0
     version: 2.78.0
   aws-cdk-lib:
-    specifier: 2.78.0
-    version: 2.78.0(constructs@10.0.0)
+    specifier: 2.80.0
+    version: 2.80.0(constructs@10.0.0)
   constructs:
     specifier: ^10.0.0
     version: 10.0.0
@@ -44,16 +44,16 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@aws-cdk/asset-awscli-v1@2.2.164:
-    resolution: {integrity: sha512-8lxqMeURT4fCdf7JxiXXGSv9TdwtyphkAYF92uVPJcj7EvqGU8Lu0eiHej10UCcgENnobVQRMWr8Wxlp4LYGhQ==}
+  /@aws-cdk/asset-awscli-v1@2.2.196:
+    resolution: {integrity: sha512-F8hU1rEzYS7z5Dt2s+ttd0/jMvPuUE9BcXexgq+dIOLuZsRpDwNnkMBtjNaJXJS48ZGJ2X4b8VlklseepdtoSA==}
     dev: false
 
   /@aws-cdk/asset-kubectl-v20@2.1.1:
     resolution: {integrity: sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==}
     dev: false
 
-  /@aws-cdk/asset-node-proxy-agent-v5@2.0.138:
-    resolution: {integrity: sha512-T9uCDBJoxkj6J1KCRhZHN0N9frZanVb74gz6WfB5BuxwW+u+r1McyRMT/GIdj88IMV0j5nPVU64sR1FL3B1lPA==}
+  /@aws-cdk/asset-node-proxy-agent-v5@2.0.165:
+    resolution: {integrity: sha512-bsyLQD/vqXQcc9RDmlM1XqiFNO/yewgVFXmkMcQkndJbmE/jgYkzewwYGrBlfL725hGLQipXq19+jwWwdsXQqg==}
     dev: false
 
   /@babel/code-frame@7.21.4:
@@ -843,15 +843,15 @@ packages:
       sprintf-js: 1.0.3
     dev: true
 
-  /aws-cdk-lib@2.78.0(constructs@10.0.0):
-    resolution: {integrity: sha512-meg2lb7it1n83OrtAcA4Ttc3Tx3PDei2SdZ3Xe8/7RrfiMx3D6jBQZSzOj8hIOEhyNfYoz1AfZwIcqAlmWvmJQ==}
+  /aws-cdk-lib@2.80.0(constructs@10.0.0):
+    resolution: {integrity: sha512-PoqD3Yms5I0ajuTi071nTW/hpkH3XsdyZzn5gYsPv0qD7mqP3h6Qr+6RiGx+yQ1KcVFyxWdX15uK+DsC0KwvcQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.164
+      '@aws-cdk/asset-awscli-v1': 2.2.196
       '@aws-cdk/asset-kubectl-v20': 2.1.1
-      '@aws-cdk/asset-node-proxy-agent-v5': 2.0.138
+      '@aws-cdk/asset-node-proxy-agent-v5': 2.0.165
       constructs: 10.0.0
     dev: false
     bundledDependencies:
@@ -1088,6 +1088,7 @@ packages:
     resolution: {integrity: sha512-MIwjmrXZpM9RtwyrSD4HotDIQl8HTdIefQhU+MU1asvtSyVN3kK8kjeUOWMFb+fdyT4RX3QvvcaaPBluLEX1SA==}
     engines: {node: '>= 10.17.0'}
     dev: false
+    bundledDependencies: []
 
   /convert-source-map@1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
