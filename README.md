@@ -13,7 +13,7 @@ This project uses AWS CDK (TypeScript) to create a production-ready VPC infrastr
 
 ## Prerequisites
 
-- Node.js 18 or later
+- Node.js 26 or later
 - pnpm
 - AWS CLI configured with appropriate credentials
 - AWS CDK CLI (`pnpm install` will handle this)
