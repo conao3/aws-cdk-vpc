@@ -1,7 +1,7 @@
 {
   "name": "aws-cdk-vpc",
   "version": "1.0.0",
-  "packageManager": "pnpm@12.9.0",
+  "packageManager": "pnpm@12.18.0",
   "description": "",
   "bin": {
     "cdk": "cdk/bin/cdk.js"
@@ -17,8 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "26.6.5",
-    "aws-cdk": "^2.1146.1",
+    "@types/node": "26.6.6",
+    "aws-cdk": "^2.1148.0",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.15",
     "ts-node": "^10.9.2",
