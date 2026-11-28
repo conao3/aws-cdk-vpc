@@ -1,6 +1,24 @@
-# aws-cdk-vpc
+<p align="center">
+  <img src="docs/assets/banner.png" alt="aws-cdk-vpc: Provision a VPC with public and private subnets using AWS CDK" width="880">
+</p>
 
-A simple AWS CDK project for provisioning a VPC with public and private subnets.
+<p align="center"><strong>Provision a VPC with public and private subnets using AWS CDK</strong></p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/conao3/aws-cdk-vpc" alt="License"></a>
+  <a href="https://github.com/conao3/aws-cdk-vpc/stargazers"><img src="https://img.shields.io/github/stars/conao3/aws-cdk-vpc?style=flat" alt="GitHub stars"></a>
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> |
+  <a href="#prerequisites">Prerequisites</a> |
+  <a href="#installation">Installation</a> |
+  <a href="#deployment">Deployment</a> |
+  <a href="#useful-commands">Useful Commands</a> |
+  <a href="#license">License</a>
+</p>
+
+<h1>aws-cdk-vpc</h1>
 
 ## Overview
 
